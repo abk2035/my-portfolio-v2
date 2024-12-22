@@ -263,4 +263,67 @@ section.active {
 
  .services-container{
     display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(40rem,2fr));
+    gap: 2rem;
  }
+
+ .services-container .services-box {
+    background: var(--second-bg-color);
+    padding: 3rem 2.5rem;
+    border-radius: 1rem;
+    border: .2rem solid var(--second-bg-color);
+ }
+
+ .services-container .services-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+ }
+
+ .services-box .icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .services-box .icon i {
+    font-size: 4.5rem;
+    transition: .5s;
+ }
+
+ .services-box:hover .icon :not(a i)  {
+    color: var(--main-color);
+ }
+
+ .services-box .icon a {
+    display: inline-flex;
+    background:  var(--white-color);
+    border-radius: 50%;
+    padding: 1rem;
+    transition: .5s;
+ }
+
+ .services-box:hover .icon a {
+    background: var(--main-color);
+ }
+
+ .services-box .icon a:hover i {
+    transform: rotate(180deg);
+ }
+
+.services-box .icon a i {
+    font-size: 3rem;
+    color: var(--bg-color);
+    transform: rotate(225deg);
+}
+.services-box h3 {
+    font-size: 3rem;
+    margin: .5rem 0 2rem;
+    transition: .5s;
+}
+
+.services-box:hover h3 {
+    color: var(--main-color);
+}
+.services-box p{
+    font-size: 1.6rem;
+}
