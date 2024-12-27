@@ -14,7 +14,7 @@
 <body>
      
     <!-- header -->
-     <header>
+     <header class="active">
          <a href="#" class="logo">A.B.K</a>
          <i class='bx bx-menu' id="menu-icon"></i>
 
@@ -27,8 +27,18 @@
         </nav>
      </header>
 
+     <!-- bars background -->
+      <div class="bars-box active">
+         <div class="bar" style="--i:6;"></div>
+         <div class="bar" style="--i:5;"></div>
+         <div class="bar" style="--i:4;"></div>
+         <div class="bar" style="--i:3;"></div>
+         <div class="bar" style="--i:2;"></div>
+         <div class="bar" style="--i:1;"></div>
+      </div>
+
      <!-- home section -->
-      <section class="home ">
+      <section class="home active">
            <div class="home-detail">
              <h1>A.B. KENGNE</h1>
              <h2>I'm a 
@@ -293,7 +303,7 @@
        </section>
 
        <!-- portfolio section -->
-       <section class="portfolio active">
+       <section class="portfolio">
              <h2 class="heading">Latest <span>Project</span></h2>
              <div class="portfolio-container">
                  <div class="portfolio-box">
@@ -379,6 +389,55 @@
                  </div>
              </div>     
         </section>
+        
+        <!-- contact section -->
+         <section class="contact">
+            <div class="contact-container">
+              <div class="contact-box">
+                <h2>Let Work Together</h2>
+                <p class="desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Necessitatibus optio harum quibusdam aperiam doloribus facere eligendi sunt numquam blanditiis distinctio. Vero cupiditate, delectus 
+                  quod animi aut nesciunt hic quibusdam cum?
+                </p>
+                <div class="contact-detail">
+                  <i class="bx bxs-phone"></i>
+                  <div class="detail">
+                     <p>Phone</p>
+                     <p>(+237) 693584533</p>
+                  </div>
+                </div>
+                <div class="contact-detail">
+                  <i class="bx bxs-envelope"></i>
+                  <div class="detail">
+                     <p>Email</p>
+                     <p>kengneborele@gmail.com</p>
+                  </div>
+                </div>
+                <div class="contact-detail">
+                  <i class="bx bxs-map"></i>
+                  <div class="detail">
+                     <p>Address</p>
+                     <p>Logbessou pk15</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-box">
+                  <form action="">
+                    <h2 class="heading">Contact <span>Me!</span></h2>
+                    <div class="field-box">
+                      <input type="text" placeholder="Full Name" required>
+                      <input type="email" placeholder="Email Address" required>
+                      <input type="text" placeholder="Phone number" required>
+                      <input type="text" placeholder="Email Subject" required>
+                      <textarea name="" id="" cols="" rows="" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                  </form>
+              </div>
+            </div>
+         </section>
 
 
      

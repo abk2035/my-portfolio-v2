@@ -1,5 +1,39 @@
- // for resume section
+ // for navigation item
+ const navLinks = document.querySelectorAll('header nav a');
+ const logoLink = document.querySelector('.logo');
 
+ const activePage = ()=>{
+    const barsBox = document.querySelector('.bars-box');
+
+    navLinks.forEach(link =>{
+        link.classList.remove('active');
+    });
+
+    barsBox.classList.remove('active');
+    setTimeout(()=>{
+        barsBox.classList.add('active')
+    },1100);
+
+ }
+
+ navLinks.forEach((link,idx)=>{
+    link.addEventListener('click',()=>{
+       if(!link.classList.contains('active')){
+          activePage();
+          link.classList.add('active');
+       }
+    });
+  })
+
+  logoLink.addEventListener('click',()=>{
+    if(!navLinks[0].classList.contains('active')){
+       activePage();
+       navLinks[0].classList.add('active');
+    }
+  })
+ 
+ 
+ // for resume section
  const resumeBtns = document.querySelectorAll('.resume-btn');
 
  resumeBtns.forEach((btn,idx)=>{
