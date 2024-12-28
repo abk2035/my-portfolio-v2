@@ -54,8 +54,8 @@ header.active{
 
 .logo{
     font-size:3rem;
-    color:var(--white-color);
-    font-weight:500;
+    color:var(--main-color);
+    font-weight:bold;
 }
 
 nav a{
@@ -873,7 +873,18 @@ section.active{
 
  }
 
- @media screen and (max-width:450px){
+ @media screen and(max-width:450px){
+    html{
+        font-size: 50%;
+    }
+
+    .home-detail .btn-sci{
+        margin-bottom:20rem;
+    }
+ }
+
+ @media screen and (max-width:400px){
+
     .home-detail,
     .resume-box h2,
     .resume-box .heading,
@@ -884,11 +895,12 @@ section.active{
 
     .home-detail .btn-sci{
         flex-direction: column-reverse;
+        margin-bottom:20rem;
     }
 
     .home-detail .btn-sci .sci{
         margin-left: 0;
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
 
     }
     .contact-box form{
