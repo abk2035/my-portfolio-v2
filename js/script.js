@@ -98,7 +98,6 @@ menuIcon.addEventListener('click',()=>{
     const portfolioDetails = document.querySelectorAll('.portfolio-detail');
    
     imgSlide.style.transform = `translateX(calc(${index * -100}% - ${index * 2}rem))`;
-    console.log('index:  '+index+'  and  '+imgSlide);
 
     portfolioDetails.forEach(detail=>{
         detail.classList.remove('active');
@@ -108,17 +107,16 @@ menuIcon.addEventListener('click',()=>{
 }
 
 arrowRight.addEventListener('click',()=>{
-    if(index<2){
+    if(index<1){
         index++;
         arrowLeft.classList.remove('disabled');
 
     }else{
-        index=3;
+        index=2;
         arrowRight.classList.add('disabled');
     }
 
     activePortfolio();
-    console.log('herer'+index);
 })
 
 arrowLeft.addEventListener('click',()=>{
