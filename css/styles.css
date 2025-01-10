@@ -648,7 +648,7 @@ section.active{
     width: 900px;
     height: 45rem;
     border-radius: 1rem;
-    overflow: hidden;
+    overflow: hidden;    
 }
 
 .portfolio-carousel .img-slide{
@@ -656,9 +656,9 @@ section.active{
     grid-auto-flow: column;
     grid-auto-columns: 100%;
     gap: 2rem;
-    height:inherit;
-    transform: translateX(2%);
+    height: inherit;
     transition: .5s;
+    /* overflow: hidden; */
 }
 
 .portfolio-carousel .img-item {
@@ -669,7 +669,7 @@ section.active{
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
     border-radius: 1rem;
 }
 

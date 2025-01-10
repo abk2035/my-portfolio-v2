@@ -10,7 +10,7 @@ menuIcon.addEventListener('click',()=>{
     navBar.classList.toggle('active');
 })
 
- const activePage = ()=>{
+ const activePage = () =>{
     const barsBox = document.querySelector('.bars-box');
     const header = document.querySelector('header');
 
@@ -18,6 +18,8 @@ menuIcon.addEventListener('click',()=>{
     setTimeout(()=>{
         header.classList.add('active');
     },1100);
+
+    
 
     navLinks.forEach(link =>{
         link.classList.remove('active');
@@ -92,11 +94,11 @@ menuIcon.addEventListener('click',()=>{
  let index = 0;
 
  const activePortfolio = ()=>{
-    const imgSlide = document.getElementById('img-slide');
+    const imgSlide = document.querySelector('.portfolio-carousel .img-slide');
     const portfolioDetails = document.querySelectorAll('.portfolio-detail');
    
-    imgSlide.style.transform = `translateX(calc(${-index*100}%-${index*2}rem))`;
-    console.log('index'+index+'and'+imgSlide);
+    imgSlide.style.transform = `translateX(calc(${index * -100}% - ${index * 2}rem))`;
+    console.log('index:  '+index+'  and  '+imgSlide);
 
     portfolioDetails.forEach(detail=>{
         detail.classList.remove('active');
