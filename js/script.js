@@ -112,7 +112,7 @@ arrowRight.addEventListener('click',()=>{
         arrowLeft.classList.remove('disabled');
 
     }else{
-        index=2;
+        index=3;
         arrowRight.classList.add('disabled');
     }
 
