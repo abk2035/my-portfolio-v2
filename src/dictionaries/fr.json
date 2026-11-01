@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "title": "Arnold Kengne — Ingénieur logiciel & DevOps",
+    "description": "Portfolio d'Arnold Kengne, ingénieur logiciel & DevOps à Douala, Cameroun."
+  },
+  "common": {
+    "home": "Accueil",
+    "themeLabel": "Changer de thème",
+    "menu": "Menu",
+    "navHome": "Accueil",
+    "navProjects": "Projets",
+    "navCv": "CV",
+    "explore": "Explorer",
+    "findMe": "Me retrouver",
+    "copyright": "© 2026 Arnold Kengne. Tous droits réservés.",
+    "language": "Langue"
+  },
+  "home": {
+    "h1": "Je suis Arnold Kengne, ingénieur logiciel & DevOps à Douala, au Cameroun.",
+    "bio": [
+      "Je conçois et développe des architectures logicielles modernes (microservices, Clean Architecture, architecture hexagonale) ainsi que des applications web et mobiles de grande envergure, de la modélisation à la mise en production.",
+      "Rigoureux, orienté résultats et très adaptable, j'aime relever des défis techniques complexes — n'hésitez pas à me contacter pour dire bonjour !"
+    ],
+    "milestonesTitle": "Jalons",
+    "milestones": [
+      "En 2026, j'ai obtenu la certification AWS Certified Cloud Practitioner.",
+      "En décembre 2025, j'ai rejoint Sorawel comme ingénieur logiciel pour intégrer et déployer l'ERP Odoo.",
+      "Entre 2023 et 2024, j'ai développé NOE, l'application mobile de génération de rapports pour le compte de KES Africa.",
+      "En 2023, j'ai obtenu mon diplôme d'ingénieur de conception en génie informatique à l'ENSPD."
+    ],
+    "s1Label": "Hors du code",
+    "s1Title": "Au-delà du clavier",
+    "s1Text": "Quand je ne code pas, vous me trouverez en train de pratiquer du sport, de lire — de la littérature technique comme générale — ou de jouer aux jeux vidéo. J'aime aussi voyager et écouter de la musique.",
+    "s2Label": "Enseignement",
+    "s2Title": "Ateliers de développement web",
+    "s2Text": "J'ai été formateur en développement web chez PADESCE-WESCO à Douala. J'y ai enseigné le cycle complet du développement logiciel, de la conception à la mise en production, à travers des ateliers pratiques sur HTML5, CSS3, JavaScript et PHP.",
+    "followTitle": "Me suivre sur :",
+    "s3Label": "Compétences",
+    "s4Label": "Certifications",
+    "certMeta": "Certification cloud",
+    "certMore": "Voir toutes les certifications sur LinkedIn",
+    "skillTitles": {
+      "languages": "Langages",
+      "frameworks": "Frameworks & technologies",
+      "devops": "DevOps & Cloud",
+      "data": "Données & IA"
+    }
+  },
+  "cv": {
+    "h1": "Mon parcours.",
+    "intro": "Ingénieur de logiciel passionné, rigoureux et orienté résultats, avec une expérience en architectures logicielles modernes, en applications web et mobiles de grande envergure, et en automatisation DevOps et Cloud.",
+    "download": "Télécharger le CV",
+    "expLabel": "Expérience",
+    "eduLabel": "Éducation",
+    "certLabel": "Certifications",
+    "certMore": "Voir toutes les certifications sur LinkedIn",
+    "experience": [
+      {
+        "date": "Décembre 2025 – Présent",
+        "role": "Ingénieur de Logiciel",
+        "org": "Sorawel · Douala, Cameroun",
+        "points": [
+          "Intégration, configuration et déploiement du système ERP Odoo adapté aux besoins métier de l'entreprise."
+        ]
+      },
+      {
+        "date": "Décembre 2025",
+        "role": "Formateur en Développement Web",
+        "org": "PADESCE-WESCO · Douala, Cameroun",
+        "points": [
+          "Enseignement du cycle complet de développement logiciel, de la phase de conception théorique jusqu'à la mise en production.",
+          "Animation d'ateliers pratiques axés sur les technologies web fondamentales : HTML5, CSS3, JavaScript et PHP."
+        ]
+      },
+      {
+        "date": "Août 2023 – 2025",
+        "role": "Développeur Web & Mobile Indépendant (Freelance)",
+        "org": "Douala, Cameroun",
+        "points": [
+          "Conception et déploiement d'une plateforme SaaS d'analyse et de gestion de l'énergie (Django, Vue.js).",
+          "Étude d'architecture et développement d'une plateforme de recherche d'emploi (Node.js, React.js).",
+          "Conception, analyse et implémentation d'une plateforme de paiement sécurisée en Java."
+        ]
+      },
+      {
+        "date": "Novembre 2023 – Août 2024",
+        "role": "Développeur Web et Mobile & Support IT",
+        "org": "Kamer Engineering Solutions SARL · Douala, Cameroun",
+        "points": [
+          "Développement de l'application mobile RELEC_CUD destinée à la gestion de l'éclairage public pour la Communauté Urbaine de Douala (CUD).",
+          "Conception d'une application mobile d'inspection de levage et d'une plateforme d'impression/génération d'étiquettes avec QR Code.",
+          "Traitement et analyse de données techniques à l'aide de scripts Python et d'Excel.",
+          "Assistance technique, maintenance et support informatique d'entreprise."
+        ]
+      },
+      {
+        "date": "Février 2023 – Juin 2023",
+        "role": "Stagiaire Développeur Logiciel",
+        "org": "Spacekola · Douala, Cameroun",
+        "points": [
+          "Développement d'une plateforme SaaS de gestion intégrée pour les officines de pharmacie.",
+          "Refactorisation et modernisation du code de l'outil Toolrad en utilisant Vuetify.",
+          "Modélisation et conception d'un entrepôt de données (Data Warehouse) sous Talend Open Studio."
+        ]
+      },
+      {
+        "date": "Novembre 2022",
+        "role": "Annotateur & Étiqueteur de Données (temps partiel)",
+        "org": "Clickworker / UHRS",
+        "points": [
+          "Annotation et étiquetage de jeux de données pour l'entraînement de modèles d'IA (plateformes Google, Meta, etc.)."
+        ]
+      },
+      {
+        "date": "Juin 2022 – Août 2022",
+        "role": "Stagiaire Développeur Web",
+        "org": "École Nationale Supérieure Polytechnique de Douala (ENSPD)",
+        "points": [
+          "Conception de la plateforme web d'inscription des étudiants de l'ENSPD.",
+          "Création d'un système de génération et de vérification de QR Code pour la sécurisation des diplômes d'étudiants."
+        ]
+      },
+      {
+        "date": "Juin 2021 – Août 2021",
+        "role": "Stagiaire Informatique & Réseaux",
+        "org": "Green Consulting SARL · Douala, Cameroun",
+        "points": [
+          "Conception du site web vitrine de l'entreprise et proposition d'une architecture réseau optimisée.",
+          "Gestion et optimisation de la visibilité numérique sur la page Facebook de l'entreprise."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "date": "2022 – 2023",
+        "title": "Diplôme d'Ingénieur de Conception en Génie Informatique",
+        "school": "École Nationale Supérieure Polytechnique de Douala (ENSPD) · Douala, Cameroun"
+      },
+      {
+        "date": "2020 – 2021",
+        "title": "Diplôme d'Ingénieur des Travaux en Génie Informatique",
+        "school": "École Nationale Supérieure Polytechnique de Douala (ENSPD) · Douala, Cameroun"
+      },
+      {
+        "date": "2016 – 2017",
+        "title": "Baccalauréat Scientifique (Série C)",
+        "school": "Lycée Classique de Bafoussam · Bafoussam, Cameroun"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+/* Le variant dark: suit la classe posée par next-themes, pas la préférence système */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Thème sombre par défaut (maquettes) */
+:root {
+  --background: #0a0a0b;
+  --foreground: #fafafa;
+  --muted: #a1a1aa;
+  --border: #27272a;
+  --card: #111113;
+  --lime: #a3e635;
+  --lime-text: #0a0a0b;
+  --chip: #1f1f23;
+  --shadow: 0 4px 16px rgba(0, 0, 0, 0.55);
+  color-scheme: dark;
+}
+
+/* Thème clair */
+.light {
+  --background: #ffffff;
+  --foreground: #09090b;
+  --muted: #52525b;
+  --border: #e4e4e7;
+  --card: #fafafa;
+  --lime: #4d7c0f;
+  --lime-text: #ffffff;
+  --chip: #f0f0f2;
+  --shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-card: var(--card);
+  --color-lime: var(--lime);
+  --color-lime-text: var(--lime-text);
+  --color-chip: var(--chip);
+  --shadow-soft: var(--shadow);
+  --font-sans: var(--font-geist-sans), system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+/* Lien : couleur citron au survol */
+.lk {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.lk:hover {
+  color: var(--lime);
+}

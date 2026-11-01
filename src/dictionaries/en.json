@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "title": "Arnold Kengne — Software & DevOps engineer",
+    "description": "Portfolio of Arnold Kengne, software & DevOps engineer based in Douala, Cameroon."
+  },
+  "common": {
+    "home": "Home",
+    "themeLabel": "Toggle theme",
+    "menu": "Menu",
+    "navHome": "Home",
+    "navProjects": "Projects",
+    "navCv": "Resume",
+    "explore": "Explore",
+    "findMe": "Find me",
+    "copyright": "© 2026 Arnold Kengne. All rights reserved.",
+    "language": "Language"
+  },
+  "home": {
+    "h1": "I'm Arnold Kengne, a software & DevOps engineer based in Douala, Cameroon.",
+    "bio": [
+      "I design and build modern software architectures (microservices, Clean Architecture, hexagonal architecture) as well as large-scale web and mobile applications, from modeling to production.",
+      "Rigorous, results-driven and highly adaptable, I enjoy tackling complex technical challenges — feel free to reach out and say hello!"
+    ],
+    "milestonesTitle": "Milestones",
+    "milestones": [
+      "In 2026, I earned the AWS Certified Cloud Practitioner certification.",
+      "In December 2025, I joined Sorawel as a software engineer to integrate and deploy the Odoo ERP.",
+      "Between 2023 and 2024, I built NOE, the mobile app for generating reports for KES Africa.",
+      "In 2023, I earned my engineering degree (design track) in computer engineering from ENSPD."
+    ],
+    "s1Label": "Beyond code",
+    "s1Title": "Beyond the keyboard",
+    "s1Text": "When I'm not coding, you'll find me playing sports, reading — both technical and general literature — or playing video games. I also love traveling and listening to music.",
+    "s2Label": "Teaching",
+    "s2Title": "Web development workshops",
+    "s2Text": "I was a web development trainer at PADESCE-WESCO in Douala. I taught the full software development cycle, from design to production, through hands-on workshops on HTML5, CSS3, JavaScript and PHP.",
+    "followTitle": "Follow me on:",
+    "s3Label": "Skills",
+    "s4Label": "Certifications",
+    "certMeta": "Cloud certification",
+    "certMore": "See all certifications on LinkedIn",
+    "skillTitles": {
+      "languages": "Languages",
+      "frameworks": "Frameworks & technologies",
+      "devops": "DevOps & Cloud",
+      "data": "Data & AI"
+    }
+  },
+  "cv": {
+    "h1": "My journey.",
+    "intro": "Passionate, rigorous and results-driven software engineer with experience in modern software architectures, large-scale web and mobile applications, and DevOps and Cloud automation.",
+    "download": "Download resume",
+    "expLabel": "Experience",
+    "eduLabel": "Education",
+    "certLabel": "Certifications",
+    "certMore": "See all certifications on LinkedIn",
+    "experience": [
+      {
+        "date": "December 2025 – Present",
+        "role": "Software Engineer",
+        "org": "Sorawel · Douala, Cameroon",
+        "points": [
+          "Integration, configuration and deployment of the Odoo ERP system tailored to the company's business needs."
+        ]
+      },
+      {
+        "date": "December 2025",
+        "role": "Web Development Trainer",
+        "org": "PADESCE-WESCO · Douala, Cameroon",
+        "points": [
+          "Taught the full software development cycle, from theoretical design to production.",
+          "Ran hands-on workshops on core web technologies: HTML5, CSS3, JavaScript and PHP."
+        ]
+      },
+      {
+        "date": "August 2023 – 2025",
+        "role": "Freelance Web & Mobile Developer",
+        "org": "Douala, Cameroon",
+        "points": [
+          "Design and deployment of a SaaS platform for energy analysis and management (Django, Vue.js).",
+          "Architecture study and development of a job search platform (Node.js, React.js).",
+          "Design, analysis and implementation of a secure payment platform in Java."
+        ]
+      },
+      {
+        "date": "November 2023 – August 2024",
+        "role": "Web & Mobile Developer & IT Support",
+        "org": "Kamer Engineering Solutions SARL · Douala, Cameroon",
+        "points": [
+          "Development of RELEC_CUD, the mobile app for managing public lighting for the Douala Urban Community (CUD).",
+          "Design of a lifting inspection mobile app and a label printing/generation platform with QR codes.",
+          "Processing and analysis of technical data with Python scripts and Excel.",
+          "Technical assistance, maintenance and corporate IT support."
+        ]
+      },
+      {
+        "date": "February 2023 – June 2023",
+        "role": "Software Developer Intern",
+        "org": "Spacekola · Douala, Cameroon",
+        "points": [
+          "Development of an integrated management SaaS platform for pharmacies.",
+          "Refactoring and modernization of the Toolrad tool's code using Vuetify.",
+          "Modeling and design of a data warehouse with Talend Open Studio."
+        ]
+      },
+      {
+        "date": "November 2022",
+        "role": "Data Annotator & Labeler (part-time)",
+        "org": "Clickworker / UHRS",
+        "points": [
+          "Annotation and labeling of datasets for AI model training (Google, Meta platforms, etc.)."
+        ]
+      },
+      {
+        "date": "June 2022 – August 2022",
+        "role": "Web Developer Intern",
+        "org": "National Advanced School of Engineering of Douala (ENSPD)",
+        "points": [
+          "Design of the ENSPD student enrollment web platform.",
+          "Creation of a QR code generation and verification system to secure student diplomas."
+        ]
+      },
+      {
+        "date": "June 2021 – August 2021",
+        "role": "IT & Networks Intern",
+        "org": "Green Consulting SARL · Douala, Cameroon",
+        "points": [
+          "Design of the company's showcase website and proposal of an optimized network architecture.",
+          "Management and optimization of the company's visibility on its Facebook page."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "date": "2022 – 2023",
+        "title": "Design Engineering Degree in Computer Engineering",
+        "school": "National Advanced School of Engineering of Douala (ENSPD) · Douala, Cameroon"
+      },
+      {
+        "date": "2020 – 2021",
+        "title": "Technical Engineering Degree in Computer Engineering",
+        "school": "National Advanced School of Engineering of Douala (ENSPD) · Douala, Cameroon"
+      },
+      {
+        "date": "2016 – 2017",
+        "title": "Scientific Baccalaureate (Series C)",
+        "school": "Lycée Classique de Bafoussam · Bafoussam, Cameroon"
+      }
+    ]
+  }
+}
