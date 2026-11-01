@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* Le variant dark: suit la classe posée par next-themes, pas la préférence système */
+/* Le variant dark: suit la classe posée sur <html>, pas la préférence système */
 @custom-variant dark (&:where(.dark, .dark *));
 
 /* Thème sombre par défaut (maquettes) */

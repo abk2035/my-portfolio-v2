@@ -4,9 +4,11 @@ import { GeistMono } from "geist/font/mono";
 import { notFound } from "next/navigation";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
-import { ThemeProvider } from "@/components/theme-provider";
 import { getDictionary, hasLocale, locales } from "@/lib/i18n";
 import "../globals.css";
+
+// Applique le thème avant le premier rendu (sombre par défaut) : évite le flash.
+const THEME_SCRIPT = `try{var t=localStorage.getItem("theme");document.documentElement.classList.add(t==="light"?"light":"dark")}catch(e){document.documentElement.classList.add("dark")}`;
 
 
 export function generateStaticParams() {
@@ -31,12 +33,13 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
 
   return (
     <html lang={lang} suppressHydrationWarning className={`${GeistSans.variable} ${GeistMono.variable}`}>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+      </head>
       <body className="flex min-h-screen flex-col antialiased">
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange>
-          <Header lang={lang} labels={common} />
-          <div className="flex flex-1 flex-col">{children}</div>
-          <Footer lang={lang} t={common} />
-        </ThemeProvider>
+        <Header lang={lang} labels={common} />
+        <div className="flex flex-1 flex-col">{children}</div>
+        <Footer lang={lang} t={common} />
       </body>
     </html>
   );
