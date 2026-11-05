@@ -42,7 +42,7 @@ export function Footer({ lang, t }: { lang: string; t: Dictionary["common"] }) {
                 <LinkedinIcon className="flex-none" /> LinkedIn
               </a>
               <a href={SOCIALS.email} className="lk inline-flex items-center gap-2">
-                <Mail size={16} className="flex-none" aria-hidden /> Email
+                <Mail size={16} className="flex-none" aria-hidden /> {SOCIALS.email}
               </a>
             </div>
           </nav>
