@@ -147,5 +147,218 @@
         "school": "Lycée Classique de Bafoussam · Bafoussam, Cameroon"
       }
     ]
+  },
+  "projects": {
+    "h1": "A showcase of my projects.",
+    "intro": "Every project starts from a concrete problem: transport, healthcare, energy, public services. I approach them with the same standard: a clean architecture, automated DevOps & Cloud deployment and measurable results.",
+    "filterLabel": "Filter projects",
+    "kinds": {
+      "all": "All",
+      "product": "Product",
+      "mission": "Client work",
+      "concept": "Concept"
+    },
+    "items": [
+      {
+        "slug": "qtransit",
+        "kind": "product",
+        "initials": "QT",
+        "name": "QTransit",
+        "detail": true,
+        "tags": [
+          "Next.js",
+          "FastAPI",
+          "PostgreSQL",
+          "Flutter"
+        ],
+        "desc": "SaaS ERP for intercity bus companies: operations, ticketing, treasury and reporting in a single multi-company platform."
+      },
+      {
+        "slug": "sandigi",
+        "kind": "product",
+        "initials": "SA",
+        "name": "Sandigi",
+        "detail": false,
+        "desc": "Medical solution for tracking patient data, built at Neurafrik Solution.",
+        "tags": [
+          "AI",
+          "Healthcare"
+        ]
+      },
+      {
+        "slug": "noe",
+        "kind": "mission",
+        "initials": "NO",
+        "name": "NOE",
+        "detail": false,
+        "desc": "Between 2023 and 2024, I built NOE, the mobile app for generating reports for KES Africa.",
+        "tags": [
+          "Mobile",
+          "Reporting"
+        ]
+      },
+      {
+        "slug": "armurerie-belibi",
+        "kind": "concept",
+        "initials": "AB",
+        "name": "Armurerie BELIBI",
+        "detail": true,
+        "tags": [
+          "Next.js",
+          "Tailwind CSS",
+          "One-page"
+        ],
+        "desc": "Online showcase for a Cameroonian armory: products and services, four branches and direct contact via WhatsApp, with smooth anchor navigation on a single page."
+      }
+    ]
+  },
+  "projectUi": {
+    "back": "All projects",
+    "visit": "Visit site",
+    "code": "View code"
+  },
+  "projectDetails": {
+    "qtransit": {
+      "badge": "Product",
+      "badgeStatus": "MVP",
+      "pitch": "SaaS ERP for intercity bus companies: operations, ticketing, treasury and reporting in a single multi-company platform.",
+      "aboutLabel": "About",
+      "about": [
+        "QTransit centralizes the management of an intercity bus company: agencies, buses, drivers, routes and trips, all the way to ticket sales and cash register tracking.",
+        "The platform is built as SaaS: each company gets its own space with isolated data. It relies on a web admin portal, an API and a mobile app for passengers."
+      ],
+      "featuresLabel": "Features",
+      "features": [
+        "Multi-company: data isolated per company.",
+        "Secure authentication with refresh tokens, roles and permissions.",
+        "Operations management: agencies, buses, drivers, routes and trips.",
+        "Ticketing with an interactive seat map and automatic seat assignment.",
+        "Treasury: cash registers are credited automatically on counter sales.",
+        "Protection against concurrent sales on the same trip or cash register.",
+        "Reporting with dashboards and charts.",
+        "Mobile app for passengers."
+      ],
+      "modulesLabel": "Modules",
+      "modules": [
+        {
+          "name": "Core",
+          "desc": "Companies, users, roles and access."
+        },
+        {
+          "name": "Operations",
+          "desc": "Agencies, buses, drivers, routes, trips."
+        },
+        {
+          "name": "Ticketing",
+          "desc": "Ticket sales and seat map."
+        },
+        {
+          "name": "Treasury",
+          "desc": "Cash registers and collections."
+        },
+        {
+          "name": "Reporting",
+          "desc": "Metrics and dashboards."
+        }
+      ],
+      "stackLabel": "Stack",
+      "stack": [
+        "Next.js 14",
+        "TypeScript",
+        "Tailwind CSS",
+        "Recharts",
+        "FastAPI",
+        "PostgreSQL",
+        "SQLAlchemy",
+        "Alembic",
+        "Docker",
+        "Flutter",
+        "pytest"
+      ],
+      "infoLabel": "Info",
+      "info": [
+        {
+          "k": "Platform",
+          "v": "Web, Mobile"
+        },
+        {
+          "k": "Type",
+          "v": "SaaS · ERP"
+        },
+        {
+          "k": "Industry",
+          "v": "Intercity transport"
+        },
+        {
+          "k": "Status",
+          "v": "MVP"
+        }
+      ]
+    },
+    "armurerie-belibi": {
+      "badge": "Concept",
+      "badgeStatus": "V1",
+      "pitch": "Online showcase for a Cameroonian armory: products and services, four branches and direct contact via WhatsApp, with smooth anchor navigation on a single page.",
+      "aboutLabel": "About",
+      "about": [
+        "The official showcase website of Armurerie BELIBI, a Cameroonian company specialized in hunting, defense and security equipment. It presents the company, its catalog, its branches and how to reach it.",
+        "For this first version, everything fits on a single page: no separate pages for products, services or branches. Visitors move from one section to the next through anchor navigation. There is no online purchase: requests go through direct contact, mainly WhatsApp or phone."
+      ],
+      "featuresLabel": "Features",
+      "features": [
+        "One-page site with anchor navigation to five sections.",
+        "Compact, elegant header with a discreet, visible action button.",
+        "Sticky header that never hides section titles during anchor navigation.",
+        "Accessible mobile menu with working open and close.",
+        "Products and services: hunting, defense, self-defense, repair workshop, accessories and security equipment, law enforcement.",
+        "Four branches shown with their opening hours: Yaoundé (head office), Douala, Ambam and Ebolowa.",
+        "Direct contact via WhatsApp or phone.",
+        "Institutional, reassuring tone, with a reminder of the regulatory framework."
+      ],
+      "modulesLabel": "Page sections",
+      "modules": [
+        {
+          "name": "Home"
+        },
+        {
+          "name": "About"
+        },
+        {
+          "name": "Products and services"
+        },
+        {
+          "name": "Our branches"
+        },
+        {
+          "name": "Contact"
+        }
+      ],
+      "stackLabel": "Stack",
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Vercel"
+      ],
+      "infoLabel": "Info",
+      "info": [
+        {
+          "k": "Platform",
+          "v": "Web"
+        },
+        {
+          "k": "Type",
+          "v": "Concept · One-page"
+        },
+        {
+          "k": "Industry",
+          "v": "Armory and security"
+        },
+        {
+          "k": "Version",
+          "v": "V1"
+        }
+      ]
+    }
   }
 }

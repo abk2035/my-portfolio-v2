@@ -147,5 +147,218 @@
         "school": "Lycée Classique de Bafoussam · Bafoussam, Cameroun"
       }
     ]
+  },
+  "projects": {
+    "h1": "Une vitrine de mes projets.",
+    "intro": "Chaque projet part d'un problème concret : transport, santé, énergie, collectivités. Je les aborde avec la même exigence : une architecture propre, un déploiement automatisé DevOps & Cloud et des résultats mesurables.",
+    "filterLabel": "Filtrer les projets",
+    "kinds": {
+      "all": "Tous",
+      "product": "Produit",
+      "mission": "Mission",
+      "concept": "Conceptuel"
+    },
+    "items": [
+      {
+        "slug": "qtransit",
+        "kind": "product",
+        "initials": "QT",
+        "name": "QTransit",
+        "detail": true,
+        "tags": [
+          "Next.js",
+          "FastAPI",
+          "PostgreSQL",
+          "Flutter"
+        ],
+        "desc": "ERP SaaS pour compagnies de transport interurbain par bus : exploitation, billetterie, trésorerie et reporting réunis dans une seule plateforme multi-compagnies."
+      },
+      {
+        "slug": "sandigi",
+        "kind": "product",
+        "initials": "SA",
+        "name": "Sandigi",
+        "detail": false,
+        "desc": "Solution médicale de suivi des données patients, conçue au sein de Neurafrik Solution.",
+        "tags": [
+          "IA",
+          "Santé"
+        ]
+      },
+      {
+        "slug": "noe",
+        "kind": "mission",
+        "initials": "NO",
+        "name": "NOE",
+        "detail": false,
+        "desc": "Entre 2023 et 2024, j'ai développé NOE, l'application mobile de génération de rapports pour le compte de KES Africa.",
+        "tags": [
+          "Mobile",
+          "Rapports"
+        ]
+      },
+      {
+        "slug": "armurerie-belibi",
+        "kind": "concept",
+        "initials": "AB",
+        "name": "Armurerie BELIBI",
+        "detail": true,
+        "tags": [
+          "Next.js",
+          "Tailwind CSS",
+          "One-page"
+        ],
+        "desc": "Vitrine en ligne d'une armurerie camerounaise : produits et services, quatre agences et contact direct par WhatsApp, avec une navigation fluide par ancres sur une seule page."
+      }
+    ]
+  },
+  "projectUi": {
+    "back": "Tous les projets",
+    "visit": "Visiter le site",
+    "code": "Voir le code"
+  },
+  "projectDetails": {
+    "qtransit": {
+      "badge": "Produit",
+      "badgeStatus": "MVP",
+      "pitch": "ERP SaaS pour compagnies de transport interurbain par bus : exploitation, billetterie, trésorerie et reporting réunis dans une seule plateforme multi-compagnies.",
+      "aboutLabel": "À propos",
+      "about": [
+        "QTransit centralise la gestion d'une compagnie de bus interurbains : agences, bus, chauffeurs, lignes et trajets, jusqu'à la vente des billets et le suivi des caisses.",
+        "La plateforme est pensée en SaaS : chaque compagnie dispose de son propre espace, avec des données isolées. Elle s'appuie sur un portail d'administration web, une API et une application mobile pour les passagers."
+      ],
+      "featuresLabel": "Fonctionnalités",
+      "features": [
+        "Multi-compagnies : isolation des données par compagnie.",
+        "Authentification sécurisée avec jetons de rafraîchissement, rôles et permissions.",
+        "Gestion de l'exploitation : agences, bus, chauffeurs, lignes et trajets.",
+        "Billetterie avec plan de sièges interactif et attribution automatique des places.",
+        "Trésorerie : les caisses sont créditées automatiquement lors des ventes au guichet.",
+        "Protection contre les ventes concurrentes sur un même trajet ou une même caisse.",
+        "Reporting avec tableaux de bord et graphiques.",
+        "Application mobile pour les passagers."
+      ],
+      "modulesLabel": "Modules",
+      "modules": [
+        {
+          "name": "Core",
+          "desc": "Compagnies, utilisateurs, rôles et accès."
+        },
+        {
+          "name": "Exploitation",
+          "desc": "Agences, bus, chauffeurs, lignes, trajets."
+        },
+        {
+          "name": "Billetterie",
+          "desc": "Vente de billets et plan de sièges."
+        },
+        {
+          "name": "Trésorerie",
+          "desc": "Caisses et encaissements."
+        },
+        {
+          "name": "Reporting",
+          "desc": "Indicateurs et tableaux de bord."
+        }
+      ],
+      "stackLabel": "Stack",
+      "stack": [
+        "Next.js 14",
+        "TypeScript",
+        "Tailwind CSS",
+        "Recharts",
+        "FastAPI",
+        "PostgreSQL",
+        "SQLAlchemy",
+        "Alembic",
+        "Docker",
+        "Flutter",
+        "pytest"
+      ],
+      "infoLabel": "Infos",
+      "info": [
+        {
+          "k": "Plateforme",
+          "v": "Web, Mobile"
+        },
+        {
+          "k": "Type",
+          "v": "SaaS · ERP"
+        },
+        {
+          "k": "Secteur",
+          "v": "Transport interurbain"
+        },
+        {
+          "k": "Statut",
+          "v": "MVP"
+        }
+      ]
+    },
+    "armurerie-belibi": {
+      "badge": "Conceptuel",
+      "badgeStatus": "V1",
+      "pitch": "Vitrine en ligne d'une armurerie camerounaise : produits et services, quatre agences et contact direct par WhatsApp, avec une navigation fluide par ancres sur une seule page.",
+      "aboutLabel": "À propos",
+      "about": [
+        "Le site vitrine officiel de l'Armurerie BELIBI, entreprise camerounaise spécialisée dans les équipements de chasse, de défense et de sécurité. Il présente l'entreprise, son catalogue, ses agences et ses moyens de contact.",
+        "Pour cette première version, tout tient sur une seule page : pas de pages distinctes pour les produits, les services ou les agences. Le visiteur se déplace d'une section à l'autre grâce à une navigation par ancres. L'achat en ligne n'existe pas : les demandes passent par un contact direct, principalement WhatsApp ou téléphone."
+      ],
+      "featuresLabel": "Fonctionnalités",
+      "features": [
+        "Site one-page avec navigation par ancres vers cinq sections.",
+        "Header compact et élégant, avec un bouton d'action discret et visible.",
+        "Header sticky qui ne masque pas les titres de section lors de la navigation par ancres.",
+        "Menu mobile accessible, avec ouverture et fermeture fonctionnelles.",
+        "Produits et services : chasse, défense, autodéfense, atelier de réparation, accessoires et équipements de sécurité, forces de l'ordre.",
+        "Quatre agences présentées avec leurs horaires : Yaoundé (siège), Douala, Ambam et Ebolowa.",
+        "Contact direct par WhatsApp ou téléphone.",
+        "Ton institutionnel et rassurant, avec rappel du cadre réglementaire."
+      ],
+      "modulesLabel": "Sections de la page",
+      "modules": [
+        {
+          "name": "Accueil"
+        },
+        {
+          "name": "À propos"
+        },
+        {
+          "name": "Produits et services"
+        },
+        {
+          "name": "Nos agences"
+        },
+        {
+          "name": "Contact"
+        }
+      ],
+      "stackLabel": "Stack",
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Vercel"
+      ],
+      "infoLabel": "Infos",
+      "info": [
+        {
+          "k": "Plateforme",
+          "v": "Web"
+        },
+        {
+          "k": "Type",
+          "v": "Conceptuelle · One-page"
+        },
+        {
+          "k": "Secteur",
+          "v": "Armurerie et sécurité"
+        },
+        {
+          "k": "Version",
+          "v": "V1"
+        }
+      ]
+    }
   }
 }
